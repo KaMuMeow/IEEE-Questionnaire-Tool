@@ -107,7 +107,7 @@ namespace IEEE_Tool.Parmeter
         /// 重置該題號統計的數量
         /// </summary>
         public void Reset()
-        {
+        { 
             for (int i = 0; i < 5; i++)
             {
                 Check_List[i].Checked = false;
