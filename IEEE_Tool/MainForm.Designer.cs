@@ -50,6 +50,7 @@
             this.columnHeader9 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader10 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader11 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.label3 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -101,6 +102,7 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.Btn_Check);
             this.panel1.Controls.Add(this.Label_AnswerAmount);
             this.panel1.Controls.Add(this.label2);
@@ -257,6 +259,16 @@
             this.columnHeader11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.columnHeader11.Width = 30;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("新細明體", 9F);
+            this.label3.Location = new System.Drawing.Point(326, 43);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(260, 12);
+            this.label3.TabIndex = 9;
+            this.label3.Text = "使用說明:共有5題的話，33112這樣的格式做輸入";
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 16F);
@@ -301,6 +313,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label Label_AnswerAmount;
         private System.Windows.Forms.Button Btn_Check;
+        private System.Windows.Forms.Label label3;
     }
 }
 

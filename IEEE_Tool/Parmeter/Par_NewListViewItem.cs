@@ -29,8 +29,13 @@ namespace IEEE_Tool.Parmeter
             CheckCount = new int[5];
             this.Text = NewName;
             for (int i = 0; i < 10; i++)
-                this.SubItems.Add("--");
-            Reset();
+                this.SubItems.Add("");
+
+            for (int i = 0; i < 5; i++)
+            {
+                CheckCount[i] = 0;
+                this.SubItems[1 + i * 2].Text = CheckCount[i].ToString();
+            }
         }
 
 
