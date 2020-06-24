@@ -13,7 +13,7 @@ namespace IEEE_Tool.Presenter
         private View_SettingTopic My_View;
         private string[] Spam = { "OuO","種遮非洲人","還在做IEEE問卷阿少年","不想做對吧? 我也是", "GitHub:KaMuMeow/IEEE-Questionnaire-Tool"
         ,"RRRRRRRRRRRRRRRRRRR" ,"被當? 嫩","好累喔喔喔喔","該工具誕生時間 2020/06" ,"看到這則訊息，種遮也抽中了5星","恭喜您獲得VIP15!",
-        "回答問卷 抽IPhone 158","ㄏㄏ"}; 
+        "回答問卷抽 IPhone158","ㄏㄏ"}; 
         public Pst_SettingTopic(View_SettingTopic TmpView)
         {
             My_View = TmpView;
