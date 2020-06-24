@@ -21,7 +21,7 @@ namespace IEEE_Tool.Parmeter
 
         //0:非常同意,1:同意,2:普通,3:不同意,4:非常不同意
         private CheckBox[] Check_List; //對應的勾選框
-        private int[] CheckCount; //統計對應的數量
+        public int[] CheckCount { get; private set; } //統計對應的數量
 
         public Par_NewListViewItem(string NewName)
         {

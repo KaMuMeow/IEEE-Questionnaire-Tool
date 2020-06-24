@@ -6,7 +6,7 @@ namespace IEEE_Tool.View
         Button View_Btn_SetTopic { get; }
         Button View_Btn_Reset { get; }
         Button View_Btn_Check { get; }
-
+        Button View_Btn_Export { get; }
         ListView View_ListView_TopicList { get; }
 
         TextBox View_TextBox_Input { get; }

@@ -139,5 +139,14 @@ namespace IEEE_Tool.Presenter
             //顯示之前記錄下來的答案
             Model_MainControl.InputCheck(Model_MainControl.SaveAnswer[GetSelectIdx]);
         }
+
+        public void ExportCsv()
+        {
+            DialogResult Ans = MessageBox.Show("確定輸出.Csv嗎?","Info",MessageBoxButtons.OKCancel,MessageBoxIcon.Information);
+            if (Ans == DialogResult.OK)
+            {
+                Model_MainControl.ExportCsv();
+            }
+        }
     }
 }

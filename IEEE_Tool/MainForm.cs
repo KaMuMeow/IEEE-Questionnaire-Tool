@@ -18,6 +18,7 @@ namespace IEEE_Tool
         public Button View_Btn_SetTopic => Btn_SetTopic;
         public Button View_Btn_Reset => Btn_Reset;
         public Button View_Btn_Check => Btn_Check;
+        public Button View_Btn_Export => Btn_Export;
 
         public ComboBox View_Combox_SelectQuestionnaire => Combox_SelectQuestionnaire;
 
@@ -62,6 +63,11 @@ namespace IEEE_Tool
         private void Btn_Reset_Click(object sender, EventArgs e)
         {
             My_Pst.Reset();
+        }
+
+        private void Btn_Export_Click(object sender, EventArgs e)
+        {
+            My_Pst.ExportCsv();
         }
     }
 }
