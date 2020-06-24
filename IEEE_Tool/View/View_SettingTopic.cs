@@ -10,6 +10,8 @@ namespace IEEE_Tool.View
         Button View_Btn_Join { get; }
         Button View_Btn_Remove { get; }
 
+        Label View_Label_Title { get; }
+
         ListBox View_ListBox_SelectTopic { get; }
         ListBox View_ListBox_JoinTopic { get; }
     }

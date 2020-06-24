@@ -39,7 +39,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.Btn_Done = new System.Windows.Forms.Button();
             this.Btn_Cancel = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
+            this.Label_Title = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -58,7 +58,7 @@
             this.tableLayoutPanel1.Controls.Add(this.label2, 2, 0);
             this.tableLayoutPanel1.Controls.Add(this.Btn_Done, 1, 2);
             this.tableLayoutPanel1.Controls.Add(this.Btn_Cancel, 2, 2);
-            this.tableLayoutPanel1.Controls.Add(this.label3, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.Label_Title, 1, 0);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4);
@@ -189,19 +189,19 @@
             this.Btn_Cancel.UseVisualStyleBackColor = true;
             this.Btn_Cancel.Click += new System.EventHandler(this.Btn_Cancel_Click);
             // 
-            // label3
+            // Label_Title
             // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.SystemColors.Info;
-            this.label3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label3.Font = new System.Drawing.Font("標楷體", 50F);
-            this.label3.Location = new System.Drawing.Point(185, 0);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(192, 67);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "OuO";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label_Title.AutoSize = true;
+            this.Label_Title.BackColor = System.Drawing.SystemColors.Info;
+            this.Label_Title.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Label_Title.Font = new System.Drawing.Font("標楷體", 12F);
+            this.Label_Title.Location = new System.Drawing.Point(185, 0);
+            this.Label_Title.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Label_Title.Name = "Label_Title";
+            this.Label_Title.Size = new System.Drawing.Size(192, 67);
+            this.Label_Title.TabIndex = 7;
+            this.Label_Title.Text = "OuO";
+            this.Label_Title.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // SettingTopicForm
             // 
@@ -234,7 +234,7 @@
         private System.Windows.Forms.Button Btn_Join;
         private System.Windows.Forms.Button Btn_Done;
         private System.Windows.Forms.Button Btn_Cancel;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label Label_Title;
         private System.Windows.Forms.Label label4;
     }
 }

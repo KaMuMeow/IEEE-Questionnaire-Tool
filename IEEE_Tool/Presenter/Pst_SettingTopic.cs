@@ -11,6 +11,9 @@ namespace IEEE_Tool.Presenter
     public class Pst_SettingTopic
     {
         private View_SettingTopic My_View;
+        private string[] Spam = { "OuO","種遮非洲人","還在做IEEE問卷阿少年","不想做對吧? 我也是", "GitHub:KaMuMeow/IEEE-Questionnaire-Tool"
+        ,"RRRRRRRRRRRRRRRRRRR" ,"被當? 嫩","好累喔喔喔喔","該工具誕生時間 2020/06" ,"看到這則訊息，種遮也抽中了5星","恭喜您獲得VIP15!",
+        "回答問卷 抽IPhone 158","ㄏㄏ"}; 
         public Pst_SettingTopic(View_SettingTopic TmpView)
         {
             My_View = TmpView;
@@ -36,6 +39,11 @@ namespace IEEE_Tool.Presenter
                     My_View.View_ListBox_JoinTopic.Items.Add(GetTopic.Text);
                 }
             }
+            //更改標題的垃圾內容
+            Random Rnd = new Random(DateTime.Now.ToString().GetHashCode());
+            string GetContent = Spam[Rnd.Next(Spam.Length)];
+            My_View.View_Label_Title.Text = GetContent;
+
         }
 
         /// <summary>

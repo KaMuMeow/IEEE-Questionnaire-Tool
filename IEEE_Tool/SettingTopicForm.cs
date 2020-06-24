@@ -22,6 +22,8 @@ namespace IEEE_Tool
         public Button View_Btn_Join => Btn_Join;
         public Button View_Btn_Remove => Btn_Remove;
 
+        public Label View_Label_Title => Label_Title;
+
         public ListBox View_ListBox_SelectTopic => ListBox_SelectTopic;
         public ListBox View_ListBox_JoinTopic => ListBox_JoinTopic;
         #endregion
